@@ -39,7 +39,7 @@ html, body {
   max-width: 905px;
   float: left;
   height: 40px !important;
-  padding: 19px 12px;
+  padding: 10px 12px;
   font-size: 18px;
   border-top-left-radius: 5px !important;
   border-bottom-left-radius: 5px !important;
@@ -119,7 +119,9 @@ p.location {
 }
 
 .price-location {
-  display: flow-root;
+  display: table;
+  clear: both;
+  width: 100%;
 }
 
 .name p {
